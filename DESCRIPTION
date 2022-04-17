@@ -1,0 +1,12 @@
+Package: amaRyaml
+Title: Amarakon's Template 
+Version: 0.0.1
+Authors@R: 
+    person("Amar", "Al-Zubaidi", role = c("aut", "cre")), email = "fraupflaume@gmail.com"
+Description: This template is usable in R Markdown with a preconfigured YAML.
+License: `use_gpl2_license()`
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
+Imports:
+  rmarkdown
