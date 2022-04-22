@@ -2,8 +2,8 @@
 author: Amar Al-Zubaidi
 date: \today
 mainfont: Liberation Serif
-sansfont: Liberation Serif
-monofont: Liberation Serif
+sansfont: Liberation Sans
+monofont: Liberation Mono
 fontsize: 12pt
 colorlinks: true
 table-use-row-colors: true
