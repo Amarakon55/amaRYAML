@@ -1,3 +1,7 @@
+pkg_file <- function(...) system.file(..., package = "amaRyaml")
+
+pkg_file_template <- function(...) pkg_file("rmarkdown", "templates", ...)
+
 find_resource <- function(template, file = "template.tex") {
   res <- pkg_file_template(template, "resources", file)
   if (res == "") {
