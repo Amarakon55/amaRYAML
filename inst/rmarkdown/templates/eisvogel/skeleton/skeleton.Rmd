@@ -35,7 +35,12 @@ header-includes: |
   \newcommand{\ccircled}[2]{\circled[outer color=#1]{#2}}
   \newcommand{\tcircle}[1]{\tikz \node[draw,circle]{#1};}
   \newcommand{\ctcircle}[2]{\tikz \node[draw=#1,circle]{#2};}
-output: amaRyaml::eisvogel
+output: 
+  bookdown::pdf_document2:
+    number_sections: true
+    toc_depth: 3
+    latex_engine: xelatex
+    template: eisvogel
 ---
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo=FALSE)
