@@ -1,3 +1,3 @@
-name: amaRyaml (PDF format)
-description: PDF output
-create_dir: false
+name: Eisvogel
+description: My custom Eisvogel template
+create_dir: true
