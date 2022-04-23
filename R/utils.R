@@ -9,9 +9,9 @@
 #  res
 #}
 #
-pdf_document_format <- function(format,
-                                ...) {
-  fmt <- bookdown::pdf_document2(...)
-  fmt$inherits <- "pdf_document2"
-  fmt
-}
+#pdf_document_format <- function(format,
+#                                ...) {
+#  fmt <- bookdown::pdf_document2(...)
+#  fmt$inherits <- "pdf_document2"
+#  fmt
+#}
