@@ -1,7 +1,7 @@
 eisvogel <- function(..., number_sections = TRUE,
 		          toc_depth = 3,
 			  latex_engine = "xelatex",
-			  template = "eisvogel",) {
+			  template = "eisvogel") {
 			  #includes = includes(in_header = "/resources/eisvogel-in_header.tex")) {
   bookdown::pdf_document2(
     number_sections = number_sections,
