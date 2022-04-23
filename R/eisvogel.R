@@ -1,12 +1,14 @@
-in_header <- system.file("rmarkdown", "templates", "eisvogel",
+header <- function (...) {
+    in_header <- system.file("rmarkdown", "templates", "eisvogel",
                         "resources", "in_header.tex",
                         package = "amaRyaml")
+}
 
 eisvogel <- function(..., number_sections = TRUE,
 		          toc_depth = 3,
 			  latex_engine = "xelatex",
 			  template = "eisvogel",
-			  includes = includes(in_header = in_header)) {
+			  includes = includes(in_header = header)) {
   bookdown::pdf_document2(
     number_sections = number_sections,
     toc_depth = toc_depth,
