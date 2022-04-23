@@ -10,9 +10,8 @@
 #}
 #
 #pdf_document_format <- function(format,
-#				header-includes = find_resource(format, "eisvogel-in_header.tex"),
 #                                ...) {
-#  fmt <- bookdown::pdf_document2(..., header-includes = template)
+#  fmt <- bookdown::pdf_document2(...)
 #  fmt$inherits <- "pdf_document2"
 #  fmt
 #}
