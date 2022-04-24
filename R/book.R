@@ -1,5 +1,5 @@
 book <- function(..., toc_depth = 3,
-		 latex_engine = "xelatex") {
+		      latex_engine = "xelatex") {
   in_header <- system.file("includes", "in_header.tex",
                            package = "amaRyaml")
   indent <- system.file("includes", "indent.tex",
