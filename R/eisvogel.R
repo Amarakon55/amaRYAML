@@ -2,8 +2,7 @@ eisvogel <- function(..., number_sections = TRUE,
 		          toc_depth = 3,
 			  latex_engine = "xelatex",
 			  template = "eisvogel") {
-  in_header <- system.file("rmarkdown", "templates", "eisvogel",
-                           "resources", "in_header.tex",
+  in_header <- system.file("includes", "in_header.tex",
                            package = "amaRyaml")
   bookdown::pdf_document2(
     number_sections = number_sections,
