@@ -16,14 +16,7 @@ bibliography: /home/amarakon/Documents/bibliography.bib
 csl: /home/amarakon/Documents/Citations/apa-no-initials.csl
 link-citations: yes
 classoption: letterpaper
-output:
-  bookdown::pdf_document2:
-    number_sections: true
-    toc_depth: 3
-    latex_engine: xelatex
-    template: eisvogel
-    includes:
-      in_header: includes/in_header.tex
+output: amaRyaml::eisvogel
 ---
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo=FALSE)
