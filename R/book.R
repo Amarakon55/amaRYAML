@@ -4,6 +4,6 @@ book <- function(..., toc_depth = 3, latex_engine = "xelatex") {
   bookdown::pdf_book(
     toc_depth = toc_depth,
     latex_engine = latex_engine,
-    includes = includes(in_header = in_header), ...
+    includes = "\\setlength\\parindent{24pt}" includes(in_header = in_header), ...
   )
 }
