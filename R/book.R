@@ -1,5 +1,4 @@
-eisvogel <- function(..., toc_depth = 3,
-			  latex_engine = "xelatex") {
+book <- function(..., toc_depth = 3, latex_engine = "xelatex") {
   in_header <- system.file("includes", "in_header.tex",
                            package = "amaRyaml")
   bookdown::pdf_book(
