@@ -9,7 +9,7 @@ eisvogel <- function(..., number_sections = TRUE,
     number_sections = number_sections,
     toc_depth = toc_depth,
     latex_engine = latex_engine,
-    template = template, ...
+    template = template,
     includes = includes(in_header = in_header), ...
   )
 }
