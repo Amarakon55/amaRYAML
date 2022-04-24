@@ -1,0 +1,29 @@
+---
+title: amaRYAML
+output: amaRyaml::github
+---
+```{r setup, include=FALSE}
+library(knitr)
+library(pander)
+library(DiagrammeR)
+library(DiagrammeRsvg)
+library(rsvg)
+options(tikzDefaultEngine='xetex')
+opts_chunk$set(echo=FALSE)
+opts_chunk$set(cache=TRUE)
+opts_chunk$set(dev='tikz')
+```
+
+# Description
+R package which includes a suite of custom R Markdown formats.
+Most of these templates use \LaTeX.
+
+# Templates
+There are currently 4 templates available in this package:
+
+![](examples/book/book.pdf)
+
+# Installation
+```r
+remotes::install_github("Amarakon55/amaRyaml")
+```
