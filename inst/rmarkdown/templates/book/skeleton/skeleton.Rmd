@@ -5,7 +5,7 @@ mainfont: EB Garamond
 sansfont: EB Garamond
 monofont: EB Garamond
 fontsize: 12pt
-toc: true
+toc: false
 lot: false
 lof: false
 reference-section-title: References
