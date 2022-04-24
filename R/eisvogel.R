@@ -4,7 +4,7 @@ eisvogel <- function(..., number_sections = TRUE,
 			  template = "eisvogel") {
   in_header <- system.file("includes", "in_header.tex",
                            package = "amaRyaml")
-  pdf_document2(
+  bookdown::pdf_document2(
     number_sections = number_sections,
     toc_depth = toc_depth,
     latex_engine = latex_engine,
