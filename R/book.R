@@ -7,6 +7,6 @@ book <- function(..., toc_depth = 3,
   bookdown::pdf_book(
     toc_depth = toc_depth,
     latex_engine = latex_engine,
-    includes = includes(in_header = [in_header, indent]), ...
+    includes = includes(in_header = in_header, in_header = indent), ...
   )
 }
