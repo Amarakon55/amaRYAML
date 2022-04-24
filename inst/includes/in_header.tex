@@ -1,0 +1,18 @@
+\usepackage{color, tcolorbox, soul, ulem, romannum, mdframed, circledsteps, tikz, hyperref, fmtcount}
+\usepackage[group-separator=′, group-minimum-digits=3]{siunitx}
+
+\AtBeginDocument{\pagenumbering{arabic}}
+\mdfdefinestyle{red}{linecolor=red, linewidth=1pt}
+\newcommand{\autoalign}[4][t]{%
+\par\smallskip\noindent\parbox[#1]{.333\textwidth}{\raggedright\texttt{#2}}%
+\parbox[#1]{.333\textwidth}{\centering#3}%
+\parbox[#1]{.333\textwidth}{\raggedleft\texttt{#4}}\par\smallskip%
+}
+
+\newcommand{\nth}{\ordinalnum}
+\newcommand{\dg}{$^\circ$}
+\newcommand{\cfbox}[3]{\fcolorbox{#1}{white}{#2}}
+\newcommand{\circled}{\Circled}
+\newcommand{\ccircled}[2]{\circled[outer color=#1]{#2}}
+\newcommand{\tcircle}[1]{\tikz \node[draw,circle]{#1};}
+\newcommand{\ctcircle}[2]{\tikz \node[draw=#1,circle]{#2};}
