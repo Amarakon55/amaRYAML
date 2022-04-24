@@ -1,0 +1,37 @@
+---
+title: NorBeam
+author: Amar Al-Zubaidi
+date: \today
+mainfont: Liberation Sans
+sansfont: Liberation Sans
+monofont: Liberation Mono
+fontsize: 12pt
+toc: false
+lot: false
+lof: false
+reference-section-title: References
+colorlinks: true
+link-citations: yes
+classoption: aspectratio=169
+bibliography: /home/amarakon/Documents/bibliography.bib
+csl: /home/amarakon/Documents/Citations/apa-no-initials.csl
+output: amaRyaml::norbeam
+---
+```{r setup, include=FALSE}
+library(knitr)
+library(pander)
+library(DiagrammeR)
+library(DiagrammeRsvg)
+library(rsvg)
+options(tikzDefaultEngine='xetex')
+opts_chunk$set(echo=FALSE)
+opts_chunk$set(cache=TRUE)
+opts_chunk$set(attr.source='.numberLines')
+opts_chunk$set(dev='tikz')
+```
+
+# Lorem Ipsum
+- Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+- Cras blandit lorem sit amet justo faucibus, nec fringilla sem facilisis.
+- Cras consectetur eros nec odio scelerisque, ac gravida dolor fringilla.
+- Sed pharetra nunc ac tellus ultrices suscipit.
