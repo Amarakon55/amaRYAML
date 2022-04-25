@@ -4,7 +4,7 @@ date: \today
 mainfont: EB Garamond
 sansfont: EB Garamond
 monofont: EB Garamond
-fontsize: 12pt
+fontsize: 10pt
 toc: false
 lot: false
 lof: false

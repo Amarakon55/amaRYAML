@@ -4,7 +4,7 @@ date: \today
 mainfont: Liberation Serif
 sansfont: Liberation Sans
 monofont: Liberation Mono
-fontsize: 12pt
+fontsize: 11pt
 toc: false
 lot: false
 lof: false
