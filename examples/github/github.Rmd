@@ -1,18 +1,18 @@
 ---
 title: GitHub
-output: amaRyaml::github:
+output: amaRyaml::github
 ---
-```{r setup, include=FALSE}
+```{r setup, include = FALSE}
 library(knitr)
 library(pander)
 library(DiagrammeR)
 library(DiagrammeRsvg)
 library(rsvg)
-options(tikzDefaultEngine='xetex')
-opts_chunk$set(echo=FALSE)
-opts_chunk$set(cache=TRUE)
-opts_chunk$set(attr.source='.numberLines')
-opts_chunk$set(dev='tikz')
+options(tikzDefaultEngine = 'xetex')
+opts_chunk$set(echo = FALSE)
+opts_chunk$set(cache = TRUE)
+opts_chunk$set(attr.source = '.numberLines')
+opts_chunk$set(dev = 'tikz')
 ```
 
 # Lorem Ipsum

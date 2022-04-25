@@ -1,9 +1,7 @@
 GitHub
 ================
 
--   [1 Lorem Ipsum](#1-lorem-ipsum)
-
-# 1 Lorem Ipsum
+# Lorem Ipsum
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
 posuere purus risus, in sodales risus rutrum eget. Donec et pellentesque
