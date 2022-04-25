@@ -25,16 +25,16 @@ I use them so I don't have to define them each time I create a new R Markdown fi
 There are currently 4 templates available in this package:
 
 ```{r templates}
-one = c("![](examples/book/book.png)")
-two = c("![](examples/github/github.png)")
+one = c("![Book](examples/book/book.png)")
+two = c("![GitHub](examples/github/github.png)")
 
 templates = data.frame(one, two)
 
-kable(templates, 'pipe', align = 'cc', col.name = c("Book", "GitHub"))
+kable(templates, 'pipe', align = 'cc', col.name = c("[Book](https://github.com/Amarakon55/amaRyaml/blob/master/examples/book/book.pdf)", "GitHub"))
 ```
 ```{r templates}
-one = c("![](examples/eisvogel/eisvogel.png)")
-two = c("![](examples/norbeam/norbeam.png)")
+one = c("![Eisvogel](examples/eisvogel/eisvogel.png)")
+two = c("![NorBeam](examples/norbeam/norbeam.png)")
 
 templates = data.frame(one, two)
 
