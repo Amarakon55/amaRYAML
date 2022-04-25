@@ -13,9 +13,9 @@ have to define them each time I create a new R Markdown file.
 
 There are currently 4 templates available in this package:
 
-| [Book](https://github.com/Amarakon55/amaRyaml/blob/master/examples/book/book.pdf) |                GitHub                 |
-|:---------------------------------------------------------------------------------:|:-------------------------------------:|
-|                          ![Book](examples/book/book.png)                          | ![GitHub](examples/github/github.png) |
+| [Book](examples/book/book.pdf)  |                GitHub                 |
+|:-------------------------------:|:-------------------------------------:|
+| ![Book](examples/book/book.png) | ![GitHub](examples/github/github.png) |
 
 |                  Eisvogel                   |                 NorBeam                  |
 |:-------------------------------------------:|:----------------------------------------:|
