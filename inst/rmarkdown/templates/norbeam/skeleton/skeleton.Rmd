@@ -14,7 +14,7 @@ link-citations: yes
 classoption: aspectratio = 169
 bibliography: /home/amarakon/Documents/bibliography.bib
 csl: /home/amarakon/Documents/Citations/apa-no-initials.csl
-output: amaRyaml::norbeam
+output: amaryaml::norbeam
 ---
 ```{r setup, include = FALSE}
 library(knitr)

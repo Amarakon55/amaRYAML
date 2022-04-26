@@ -1,5 +1,5 @@
 ---
-output: amaRyaml::github
+output: amaryaml::github
 ---
 ```{r setup, include = FALSE}
 library(knitr)
