@@ -1,0 +1,3 @@
+output_dir: .
+book_filename: book.Rmd
+delete_merged_file: true
