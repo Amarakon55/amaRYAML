@@ -1,5 +1,5 @@
 Package: amaryaml
-Title: Amarakon's Template 
+Title: Amarakon's YAML
 Version: 0.0.1
 Authors@R: 
     person("Amar", "Al-Zubaidi", role = c("aut", "cre"), email = "fraupflaume@gmail.com")
