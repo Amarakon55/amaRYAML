@@ -25,5 +25,7 @@ library(rsvg)
 options(tikzDefaultEngine = 'xetex')
 opts_chunk$set(echo = FALSE)
 opts_chunk$set(cache = TRUE)
+opts_chunk$set(cache.path = 'cache/')
+opts_chunk$set(fig.path = 'figures/')
 opts_chunk$set(dev = 'tikz')
 ```
