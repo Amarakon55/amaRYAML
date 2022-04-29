@@ -5,9 +5,6 @@ mainfont: Liberation Serif
 sansfont: Liberation Sans
 monofont: Liberation Mono
 fontsize: 11pt
-toc: false
-lot: false
-lof: false
 reference-section-title: References
 colorlinks: true
 link-citations: yes
