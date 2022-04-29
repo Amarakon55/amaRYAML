@@ -1,6 +1,5 @@
 library(amaryaml)
 library(knitr)
-library(kableExtra)
 library(pander)
 library(DiagrammeR)
 library(DiagrammeRsvg)
