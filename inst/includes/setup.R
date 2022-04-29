@@ -1,3 +1,4 @@
+library(amaryaml)
 library(knitr)
 library(kableExtra)
 library(pander)
