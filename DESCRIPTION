@@ -1,12 +1,9 @@
 Package: amaryaml
-Title: Amarakon's YAML
+Title: AmaRYAML
+Description: Preconfigured YAML Templates for R Markdown
 Version: 0.0.1
-Authors@R: 
-    person("Amar", "Al-Zubaidi", role = c("aut", "cre"), email = "fraupflaume@gmail.com")
-Description: This template is usable in R Markdown with a preconfigured YAML.
+Authors@R: person("Amar", "Al-Zubaidi", role = c("aut", "cre"), email = "fraupflaume@gmail.com")
 License: `use_gpl2_license()`
 Encoding: UTF-8
-Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.1.2
-Imports:
-  rmarkdown
+Imports: rmarkdown
+Suggests: knitr, pander, DiagrammeR, DiagrammeRsvg, rsvg
