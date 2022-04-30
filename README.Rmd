@@ -1,12 +1,11 @@
 ---
-title: amaRYAML
+title: AmaRYAMl – Amarakon’s YAML
 output: amaryaml::github
 ---
-```{r setup, include=FALSE}
-pacman::p_load(knitr, pander, DiagrammeR, DiagrammeRsvg, rsvg)
-options(tikzDefaultEngine = 'xetex')
-opts_chunk$set(echo = FALSE, warning=FALSE, message=FALSE, cache = TRUE, dev = 'tikz')
+```{r setup, include = FALSE}
+source(system.file("includes", "setup.R", package = "amaryaml"))
 ```
+
 
 ## Description
 R package which includes a suite of custom R Markdown templates. 
@@ -36,12 +35,12 @@ kable(templates, 'pipe', align = 'cc', col.name = c("[GitHub](examples/github/gi
 ```
 
 ## Installation
-The *amaRyaml* package is currently only available from GitHub.
+The *amaryaml* package is currently only available from GitHub.
 You need the *remotes* package to install from GitHub:
 
 ```r
 install.packages("remotes")
-remotes::install_github("Amarakon55/amaRyaml")
+remotes::install_github("Amarakon55/amaryaml")
 ```
 
 This package requires LaTeX for most templates.
@@ -53,13 +52,13 @@ tinytex::install_tinytex()
 ```
 
 ## Usage
-Using *amaRyaml* is very easy.
+Using *AmaRYAML* is very easy.
 There are 2 main ways to do so:
 
 1. selecting a template in RStudio using the R Markdown template selector
 1. creating a new draft with the `rmarkdown::draft()` function
 
-   - `rmarkdown::draft("file.Rmd", "book", "amaRyaml")`
-   - `rmarkdown::draft("file.Rmd", "eisvogel", "amaRyaml")`
-   - `rmarkdown::draft("file.Rmd", "github", "amaRyaml")`
-   - `rmarkdown::draft("file.Rmd", "norbeam", "amaRyaml")`
+   - `rmarkdown::draft("file.Rmd", "book", "amaryaml")`
+   - `rmarkdown::draft("file.Rmd", "eisvogel", "amaryaml")`
+   - `rmarkdown::draft("file.Rmd", "github", "amaryaml")`
+   - `rmarkdown::draft("file.Rmd", "norbeam", "amaryaml")`
