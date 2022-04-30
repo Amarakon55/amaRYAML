@@ -6,7 +6,6 @@ output: amaryaml::github
 source(system.file("includes", "setup.R", package = "amaryaml"))
 ```
 
-
 ## Description
 R package which includes a suite of custom R Markdown templates. 
 Most of these templates use LaTeX, GitHub is the exception.
