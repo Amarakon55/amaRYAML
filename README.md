@@ -1,6 +1,11 @@
 AmaRYAMl – Amarakon’s YAML
 ================
 
+-   [Description](#description)
+-   [Templates](#templates)
+-   [Installation](#installation)
+-   [Usage](#usage)
+
 ## Description
 
 R package which includes a suite of custom R Markdown templates. Most of
