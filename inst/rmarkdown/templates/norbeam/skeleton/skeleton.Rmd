@@ -1,5 +1,4 @@
 ---
-title: $~$
 author: Amar Al-Zubaidi
 date: \today
 mainfont: Liberation Sans
@@ -17,5 +16,3 @@ output: amaryaml::norbeam
 ```{r setup, include = FALSE}
 source(system.file("includes", "setup.R", package = "amaryaml"))
 ```
-
-#

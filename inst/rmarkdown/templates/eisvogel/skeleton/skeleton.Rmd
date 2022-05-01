@@ -18,5 +18,3 @@ output: amaryaml::eisvogel
 ```{r setup, include = FALSE}
 source(system.file("includes", "setup.R", package = "amaryaml"))
 ```
-
-$~$

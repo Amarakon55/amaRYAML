@@ -1,5 +1,4 @@
 ---
-title: $~$
 author: Amar Al-Zubaidi
 date: \today
 mainfont: EB Garamond
@@ -18,5 +17,3 @@ output: amaryaml::book
 ```{r setup, include = FALSE}
 source(system.file("includes", "setup.R", package = "amaryaml"))
 ```
-
-$~$
