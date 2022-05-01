@@ -10,7 +10,7 @@ reference-section-title: References
 colorlinks: true
 link-citations: yes
 documentclass: book
-geometry: margin = 1in
+geometry: margin = 1 in
 bibliography: /home/amarakon/Documents/bibliography.bib
 csl: /home/amarakon/Documents/Citations/apa-no-initials.csl
 output: amaryaml::book
