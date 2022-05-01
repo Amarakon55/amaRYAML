@@ -1,4 +1,5 @@
 \usepackage{lipsum, tcolorbox, soul, romannum, mdframed, circledsteps, tikz, fmtcount}
+\usepackage[normalem]{ulem}
 \usepackage[group-separator=′, group-minimum-digits=3]{siunitx}
 
 \AtBeginDocument{\pagenumbering{arabic}}
@@ -17,5 +18,4 @@
 \newcommand{\tcircle}[1]{\tikz \node[draw,circle]{#1};}
 \newcommand{\ctcircle}[2]{\tikz \node[draw=#1,circle]{#2};}
 
-\renewcommand{\underline}{\ul}
-\renewcommand{\sout}{\st}
+\renewcommand{\underline}{\uline}
