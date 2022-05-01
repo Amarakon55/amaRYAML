@@ -4,6 +4,7 @@ norbeam <- function(..., toc = FALSE,
 			 highlight = find_theme("norbeam")) {
   in_header <- pkg_file("includes", "in_header.tex")
   bookdown::beamer_presentation2(
+    toc = toc,
     latex_engine = latex_engine,
     theme = theme,
     highlight = highlight,
