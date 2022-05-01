@@ -14,6 +14,3 @@ bibliography: /home/amarakon/Documents/bibliography.bib
 csl: /home/amarakon/Documents/Citations/apa-no-initials.csl
 output: amaryaml::book
 ---
-```{r setup, include = FALSE}
-source(system.file("includes", "setup.R", package = "amaryaml"))
-```
