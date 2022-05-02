@@ -2,9 +2,6 @@
 title: AmaRYAMl – Amarakon’s YAML
 output: amaryaml::github
 ---
-```{r setup, include = FALSE}
-source(system.file("includes", "setup.R", package = "amaryaml"))
-```
 
 ## Description
 R package which includes a suite of custom R Markdown templates. 
@@ -30,7 +27,7 @@ two = c("![NorBeam](examples/norbeam/norbeam.png)")
 
 templates = data.frame(one, two)
 
-kable(templates, 'pipe', align = 'cc', col.name = c("[GitHub](examples/github/github.md)", "[NorBeam](examples/norbeam/norbeam.pdf)"))
+kable(templates, align = 'cc', col.name = c("[GitHub](examples/github/github.md)", "[NorBeam](examples/norbeam/norbeam.pdf)"))
 ```
 
 ## Installation
