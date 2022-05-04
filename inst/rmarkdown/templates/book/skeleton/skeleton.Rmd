@@ -2,7 +2,6 @@
 author: Amar Al-Zubaidi
 fontsize: 10pt
 reference-section-title: References
-colorlinks: true
 link-citations: yes
 documentclass: book
 geometry: margin = 1 in
