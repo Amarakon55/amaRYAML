@@ -1,9 +1,6 @@
 ---
 title: AmaRYAMl – Amarakon’s YAML
-output:
-  amaryaml::github:
-    includes:
-      before_body: added.md
+output: amaryaml::github
 ---
 
 ## Description
