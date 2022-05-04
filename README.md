@@ -1,6 +1,8 @@
 AmaRYAMl – Amarakon’s YAML
 ================
 
+## Contents
+
 -   [Description](#description)
 -   [Templates](#templates)
 -   [Installation](#installation)
