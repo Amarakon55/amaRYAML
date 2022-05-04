@@ -1,9 +1,5 @@
 ---
 author: Amar Al-Zubaidi
-date: \today
-mainfont: EB Garamond
-sansfont: EB Garamond
-monofont: EB Garamond
 fontsize: 10pt
 reference-section-title: References
 colorlinks: true
