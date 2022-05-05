@@ -6,6 +6,7 @@ sansfont: Liberation Sans
 monofont: Liberation Mono
 fontsize: 11pt
 reference-section-title: References
+colorlinks: true
 link-citations: yes
 table-use-row-colors: true
 classoption: letterpaper
