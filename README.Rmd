@@ -2,6 +2,9 @@
 title: AmaRYAMl – Amarakon’s YAML
 output: amaryaml::github
 ---
+```{r setup, include = FALSE}
+library(knitr)
+```
 
 ## Description
 R package which includes a suite of custom R Markdown templates. 
