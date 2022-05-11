@@ -10,3 +10,7 @@ bibliography: /home/amarakon/Documents/bibliography.bib
 csl: /home/amarakon/Documents/Citations/apa-no-initials.csl
 output: amaryaml::book
 ---
+```{r setup, include = FALSE}
+library(amaryaml)
+source(pkg_file("includes", "inline.R"))
+```
