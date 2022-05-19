@@ -3,7 +3,7 @@ eisvogel <- function(..., number_sections = TRUE,
 		          toc_depth = 3,
 			  latex_engine = "xelatex",
 			  template = "eisvogel") {
-  in_header <- pkg_file("includes", "in_header.tex")
+  in_header <- pkg_file("includes", "setspace.tex")
   bookdown::pdf_document2(
     number_sections = number_sections,
     toc = toc,
