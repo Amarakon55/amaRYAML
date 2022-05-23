@@ -2,7 +2,7 @@ pkg_file <- function(...) system.file(..., package = "amaryaml")
 
 pkg_file_template <- function(...) pkg_file("rmarkdown", "templates", ...)
 
-pkg_resource <- function(...) pkg_file("resources", mustWork = TRUE, ...)
+pkg_resource <- function(...) pkg_file("resources", ..., mustWork = TRUE)
 
 find_theme <- function(theme, file = "theme.theme") {
   res <- pkg_file_template(theme, "resources", file)
@@ -16,5 +16,5 @@ find_theme <- function(theme, file = "theme.theme") {
 }
 
 lua_filters <- function(...) {
-  c(rbind("--lua-filter", pkg_resource('lua', c(...))))
+  c(rbind("--lua-filter", pkg_resource("lua", c(...))))
 }
