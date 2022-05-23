@@ -14,7 +14,7 @@ They also include global R options that are helpful.
 I use them so I don't have to define them each time I create a new R Markdown file.
 
 # Templates
-There are currently 4 templates available in this package:
+There are currently four templates available in this package:
 
 ```{r templates}
 one = c("![Book](examples/book/book.png)")
@@ -32,6 +32,13 @@ templates = data.frame(one, two)
 
 kable(templates, align = 'cc', col.name = c("[GitHub](examples/github/github.md)", "[NorBeam](examples/norbeam/norbeam.pdf)"))
 ```
+
+## GitHub
+
+The GitHub template uses a pandoc lua filter script named `lower-header.lua`.
+This simple script only occupies four lines of code.
+Its purpose is to make each section header one level lower.
+For example: level one headers (`#`) will be turned to level two headers (`##`), and so on.
 
 # Installation
 The *amaryaml* package is currently only available from GitHub.
@@ -52,7 +59,7 @@ tinytex::install_tinytex()
 
 # Usage
 Using *AmaRYAML* is very easy.
-There are 2 main ways to do so:
+There are two main ways to do so:
 
 1. selecting a template in RStudio using the R Markdown template selector
 1. creating a new draft with the `rmarkdown::draft()` function

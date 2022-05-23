@@ -5,6 +5,7 @@ AmaRYAML – Amarakon’s YAML
 
 -   [Description](#description)
 -   [Templates](#templates)
+    -   [GitHub](#github)
 -   [Installation](#installation)
 -   [Usage](#usage)
 
@@ -18,7 +19,7 @@ have to define them each time I create a new R Markdown file.
 
 ## Templates
 
-There are currently 4 templates available in this package:
+There are currently four templates available in this package:
 
 | [Book](examples/book/book.pdf)  | [Eisvogel](examples/eisvogel/eisvogel.pdf)  |
 |:-------------------------------:|:-------------------------------------------:|
@@ -27,6 +28,14 @@ There are currently 4 templates available in this package:
 |  [GitHub](examples/github/github.md)  | [NorBeam](examples/norbeam/norbeam.pdf)  |
 |:-------------------------------------:|:----------------------------------------:|
 | ![GitHub](examples/github/github.png) | ![NorBeam](examples/norbeam/norbeam.png) |
+
+### GitHub
+
+The GitHub template uses a pandoc lua filter script named
+`lower-header.lua`. This simple script only occupies four lines of code.
+Its purpose is to make each section header one level lower. For example:
+level one headers (`#`) will be turned to level two headers (`##`), and
+so on.
 
 ## Installation
 
@@ -49,7 +58,7 @@ tinytex::install_tinytex()
 
 ## Usage
 
-Using *AmaRYAML* is very easy. There are 2 main ways to do so:
+Using *AmaRYAML* is very easy. There are two main ways to do so:
 
 1.  selecting a template in RStudio using the R Markdown template
     selector
