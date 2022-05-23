@@ -1,5 +1,5 @@
 ---
-title: AmaRYAMl – Amarakon’s YAML
+title: AmaRYAML – Amarakon’s YAML
 output: amaryaml::github
 ---
 ```{r setup, include = FALSE}
