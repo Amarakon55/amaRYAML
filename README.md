@@ -1,4 +1,4 @@
-AmaRYAMl – Amarakon’s YAML
+AmaRYAML – Amarakon’s YAML
 ================
 
 ## Contents
