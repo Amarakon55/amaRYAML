@@ -20,9 +20,27 @@ have to define them each time I create a new R Markdown file.
 
 There are currently 4 templates available in this package:
 
+``` r
+one = c("![Book](examples/book/book.png)")
+two = c("![Eisvogel](examples/eisvogel/eisvogel.png)")
+
+templates = data.frame(one, two)
+
+kable(templates, 'pipe', align = 'cc', col.name = c("[Book](examples/book/book.pdf)", "[Eisvogel](examples/eisvogel/eisvogel.pdf)"))
+```
+
 | [Book](examples/book/book.pdf)  | [Eisvogel](examples/eisvogel/eisvogel.pdf)  |
 |:-------------------------------:|:-------------------------------------------:|
 | ![Book](examples/book/book.png) | ![Eisvogel](examples/eisvogel/eisvogel.png) |
+
+``` r
+one = c("![GitHub](examples/github/github.png)")
+two = c("![NorBeam](examples/norbeam/norbeam.png)")
+
+templates = data.frame(one, two)
+
+kable(templates, align = 'cc', col.name = c("[GitHub](examples/github/github.md)", "[NorBeam](examples/norbeam/norbeam.pdf)"))
+```
 
 |  [GitHub](examples/github/github.md)  | [NorBeam](examples/norbeam/norbeam.pdf)  |
 |:-------------------------------------:|:----------------------------------------:|

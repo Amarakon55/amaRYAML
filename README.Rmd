@@ -6,14 +6,14 @@ output: amaryaml::github
 library(knitr)
 ```
 
-## Description
+# Description
 R package which includes a suite of custom R Markdown templates. 
 Most of these templates use LaTeX, GitHub is the exception.
 These templates are useful due to them having common information in the YAML header.
 They also include global R options that are helpful.
 I use them so I don't have to define them each time I create a new R Markdown file.
 
-## Templates
+# Templates
 There are currently 4 templates available in this package:
 
 ```{r templates}
@@ -33,7 +33,7 @@ templates = data.frame(one, two)
 kable(templates, align = 'cc', col.name = c("[GitHub](examples/github/github.md)", "[NorBeam](examples/norbeam/norbeam.pdf)"))
 ```
 
-## Installation
+# Installation
 The *amaryaml* package is currently only available from GitHub.
 You need the *remotes* package to install from GitHub:
 
@@ -50,7 +50,7 @@ install.packages("tinytex")
 tinytex::install_tinytex()
 ```
 
-## Usage
+# Usage
 Using *AmaRYAML* is very easy.
 There are 2 main ways to do so:
 
