@@ -4,6 +4,7 @@ output: amaryaml::github
 ---
 ```{r setup, include = FALSE}
 library(knitr)
+opts_chunk$set(echo = FALSE)
 ```
 
 # Description
