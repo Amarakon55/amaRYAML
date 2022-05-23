@@ -12,3 +12,6 @@ find_theme <- function(theme, file = "theme.theme") {
   }
   res
 }
+
+stable <- function(...) knitr::kable(escape = FALSE, ...) |>
+  kableExtra::kable_styling(latex_options = "hold_position")
