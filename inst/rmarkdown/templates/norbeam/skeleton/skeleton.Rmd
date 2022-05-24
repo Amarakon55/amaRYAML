@@ -5,7 +5,7 @@ mainfont: Liberation Sans
 sansfont: Liberation Sans
 monofont: Liberation Mono
 fontsize: 12pt
-reference-section-title: References
+reference-section-title: Bibliography
 colorlinks: true
 link-citations: yes
 classoption: aspectratio = 169
