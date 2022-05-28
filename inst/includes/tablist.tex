@@ -6,6 +6,8 @@
            after ={\end{minipage}}}
 
 \newlist{tabenumerate}{enumerate}{1}
-\setlist[tabenumerate]{label=label*=\arabic*., nosep, leftmargin=*,
-           before={\begin{minipage}[t]{\hsize}},
-           after ={\end{minipage}}}
+\setlist[tabenumerate]{label*=\arabic*.,
+                       leftmargin=*,
+		       nosep,
+		       before=\begin{minipage}[t]{\hsize},
+		       after=\end{minipage}}
