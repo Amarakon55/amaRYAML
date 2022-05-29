@@ -1,13 +1,10 @@
 ---
 author: Amar Al-Zubaidi
 date: \today
-mainfont: Liberation Sans
-sansfont: Liberation Sans
-monofont: Liberation Mono
 fontsize: 12pt
 reference-section-title: Bibliography
 colorlinks: true
-link-citations: yes
+link-citations: true
 classoption: aspectratio = 169
 bibliography: /home/amarakon/Documents/bibliography.bib
 csl: /home/amarakon/Documents/Citations/apa-no-initials.csl
