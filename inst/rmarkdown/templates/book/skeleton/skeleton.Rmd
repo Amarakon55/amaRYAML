@@ -1,6 +1,5 @@
 ---
 author: Amar Al-Zubaidi
-fontsize: 10pt
 reference-section-title: Bibliography
 colorlinks: true
 link-citations: yes
