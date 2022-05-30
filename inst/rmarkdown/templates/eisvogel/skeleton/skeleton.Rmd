@@ -5,7 +5,7 @@ fontsize: 11pt
 reference-section-title: Bibliography
 colorlinks: true
 link-citations: true
-classoption: letterpaper
+papersize: letter
 geometry: margin = 1 in
 output: amaryaml::eisvogel
 ---
