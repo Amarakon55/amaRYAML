@@ -4,6 +4,7 @@ output: amaryaml::github
 ---
 ```{r setup, include = FALSE}
 library(knitr)
+options(knitr.duplicate.label = 'allow')
 opts_chunk$set(echo = FALSE, cache = TRUE)
 ```
 
@@ -25,6 +26,7 @@ templates = data.frame(one, two)
 
 kable(templates, 'pipe', align = 'cc', col.name = c("[Book](inst/examples/book/book.pdf)", "[Eisvogel](inst/examples/eisvogel/eisvogel.pdf)"))
 ```
+
 ```{r templates}
 one = c("![GitHub](inst/examples/github/github.png)")
 two = c("![NorBeam](inst/examples/norbeam/norbeam.png)")
