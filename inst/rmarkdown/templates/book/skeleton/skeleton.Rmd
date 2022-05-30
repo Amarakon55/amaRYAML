@@ -5,8 +5,6 @@ colorlinks: true
 link-citations: yes
 documentclass: book
 geometry: margin = 1 in
-bibliography: /home/amarakon/Documents/bibliography.bib
-csl: /home/amarakon/Documents/Citations/apa-no-initials.csl
 site: bookdown::bookdown_site
 output: amaryaml::book
 ---
