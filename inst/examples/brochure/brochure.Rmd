@@ -106,6 +106,8 @@ Les ingénieurs logiciels se concentrent sur l'application des principes d'ingé
 
 1. introduction à l'informatique
 
+<!--
+
 ## Exigences générales
 
 1. Diplôme d'études secondaires ou l'équivalent avec un minimum de six cours U ou M de 12e année, incluant tous les cours obligatoires.
@@ -113,15 +115,18 @@ Les ingénieurs logiciels se concentrent sur l'application des principes d'ingé
 1. Les moyennes d'admission dépendent du nombre de candidatures reçues et du nombre de places disponibles. La fourchette indiquée ci-dessus est basée sur les années précédentes.
 1. Les cours répétés peuvent être pris en considération selon le programme.
 
+-->
+
+![](media/nerd-emoji-fancam-cs.jpg)
+
 \newpage
 
 # Faits intéressants
 
-- Tout comme les langages classiques, il existe de nombreux langages de programmation.
-  - plus que 700
+- Tout comme les langages classiques, il existe de nombreux langages de programmation: plus que 700.
 - Ce n'est pas très difficile à coder, il suffit de le pratiquer souvent.
 - Écrire du code est comme écrire un document ou un livre, c'est juste un langage différent.
-- J'ai utilisé du code pour faire cette brochure.
+- J'ai utilisé du code pour [faire cette brochure](https://github.com/amarakon/amaryaml/blob/master/inst/examples/brochure/brochure.Rmd).
   - Les documents peuvent être écris avec un *langage de balisage* au lieu d'utiliser Microsoft Word ou Google Docs:
     - \LaTeX, Markdown, R Markdown, Quarto, troff
 
