@@ -1,8 +1,7 @@
 ---
 author: Amar Al-Zubaidi
-reference-section-title: Bibliography
 colorlinks: true
-link-citations: yes
+link-citations: true
 documentclass: book
 geometry: margin = 1 in
 site: bookdown::bookdown_site

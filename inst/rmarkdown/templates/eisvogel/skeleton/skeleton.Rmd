@@ -1,8 +1,6 @@
 ---
 author: Amar Al-Zubaidi
 date: \today
-fontsize: 11pt
-reference-section-title: Bibliography
 colorlinks: true
 link-citations: true
 papersize: letter

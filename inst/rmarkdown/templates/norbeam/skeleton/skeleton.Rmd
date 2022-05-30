@@ -1,7 +1,6 @@
 ---
 author: Amar Al-Zubaidi
 date: \today
-reference-section-title: Bibliography
 colorlinks: true
 link-citations: true
 classoption: aspectratio = 169
