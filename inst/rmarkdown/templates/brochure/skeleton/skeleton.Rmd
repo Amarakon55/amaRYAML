@@ -8,16 +8,5 @@ links-as-notes: true
 documentclass: leaflet
 papersize: letter
 classoption: notumble
-output:
-  bookdown::pdf_document2:
-    toc: false
-    number_sections: false
-header-includes: |
-  \usepackage{ragged2e, tabularx, enumitem}
-  \usepackage[skip=4mm, labelfont={bf, sc}, singlelinecheck=false, justification=RaggedRight]{caption}
-
-  \renewcommand{\familydefault}{\sfdefault}
-
-  \RaggedRight
-  \pagenumbering{gobble}
+output: amaryaml::brochure
 ---
