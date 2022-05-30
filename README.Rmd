@@ -4,7 +4,6 @@ output: amaryaml::github
 ---
 ```{r setup, include = FALSE}
 library(knitr)
-options(knitr.duplicate.label = 'allow')
 opts_chunk$set(echo = FALSE, cache = TRUE)
 ```
 
