@@ -34,6 +34,15 @@ templates = data.frame(one, two)
 kable(templates, align = 'cc', col.name = c("[GitHub](inst/examples/github/github.md)", "[NorBeam](inst/examples/norbeam/norbeam.pdf)"))
 ```
 
+```{r templates}
+one = c("![Brochure [1/2]](inst/examples/brochure/brochure-1.png)")
+two = c("![Brochure [2/2]](inst/examples/brochure/brochure-2.png)")
+
+templates = data.frame(one, two)
+
+kable(templates, align = 'cc', col.name = c("[Brochure [1/2]](inst/examples/brochure/brochure.pdf)", "[Brochure [2/2]](inst/examples/brochure/brochure.pdf)"))
+```
+
 ## GitHub
 
 The GitHub template uses a pandoc lua filter script named `lower-header.lua`.
