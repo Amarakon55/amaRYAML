@@ -1,8 +1,10 @@
 ---
 author: Amar Al-Zubaidi
 date: \today
-colorlinks: true
 link-citations: true
+colorlinks: true
+linkcolor: NordRed
+urlcolor: NordBlue
 classoption: aspectratio = 169
 output: amaryaml::norbeam
 ---
