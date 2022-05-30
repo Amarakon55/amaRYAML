@@ -18,20 +18,20 @@ I use them so I don't have to define them each time I create a new R Markdown fi
 There are currently four templates available in this package:
 
 ```{r templates}
-one = c("![Book](examples/book/book.png)")
-two = c("![Eisvogel](examples/eisvogel/eisvogel.png)")
+one = c("![Book](inst/examples/book/book.png)")
+two = c("![Eisvogel](inst/examples/eisvogel/eisvogel.png)")
 
 templates = data.frame(one, two)
 
-kable(templates, 'pipe', align = 'cc', col.name = c("[Book](examples/book/book.pdf)", "[Eisvogel](examples/eisvogel/eisvogel.pdf)"))
+kable(templates, 'pipe', align = 'cc', col.name = c("[Book](inst/examples/book/book.pdf)", "[Eisvogel](inst/examples/eisvogel/eisvogel.pdf)"))
 ```
 ```{r templates}
-one = c("![GitHub](examples/github/github.png)")
-two = c("![NorBeam](examples/norbeam/norbeam.png)")
+one = c("![GitHub](inst/examples/github/github.png)")
+two = c("![NorBeam](inst/examples/norbeam/norbeam.png)")
 
 templates = data.frame(one, two)
 
-kable(templates, align = 'cc', col.name = c("[GitHub](examples/github/github.md)", "[NorBeam](examples/norbeam/norbeam.pdf)"))
+kable(templates, align = 'cc', col.name = c("[GitHub](inst/examples/github/github.md)", "[NorBeam](inst/examples/norbeam/norbeam.pdf)"))
 ```
 
 ## GitHub

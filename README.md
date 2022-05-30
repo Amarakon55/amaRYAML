@@ -21,13 +21,13 @@ have to define them each time I create a new R Markdown file.
 
 There are currently four templates available in this package:
 
-| [Book](examples/book/book.pdf)  | [Eisvogel](examples/eisvogel/eisvogel.pdf)  |
-|:-------------------------------:|:-------------------------------------------:|
-| ![Book](examples/book/book.png) | ![Eisvogel](examples/eisvogel/eisvogel.png) |
+| [Book](inst/examples/book/book.pdf)  | [Eisvogel](inst/examples/eisvogel/eisvogel.pdf)  |
+|:------------------------------------:|:------------------------------------------------:|
+| ![Book](inst/examples/book/book.png) | ![Eisvogel](inst/examples/eisvogel/eisvogel.png) |
 
-|  [GitHub](examples/github/github.md)  | [NorBeam](examples/norbeam/norbeam.pdf)  |
-|:-------------------------------------:|:----------------------------------------:|
-| ![GitHub](examples/github/github.png) | ![NorBeam](examples/norbeam/norbeam.png) |
+|  [GitHub](inst/examples/github/github.md)  | [NorBeam](inst/examples/norbeam/norbeam.pdf)  |
+|:------------------------------------------:|:---------------------------------------------:|
+| ![GitHub](inst/examples/github/github.png) | ![NorBeam](inst/examples/norbeam/norbeam.png) |
 
 ### GitHub
 
