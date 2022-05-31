@@ -67,15 +67,21 @@ Les ingénieurs logiciels se concentrent sur l'application des principes d'ingé
 - Les employeurs recherchent les gens qui ont un bon montant d'expérience.
 - La plupart des gens ont leurs projets logiciels sur un site Web appelé [GitHub](https://github.com/). Cela peut être utilisé pour prouver votre expérience.
 
-## Frais scolaires
-- programme
-: 15 000 $
-- résidence
-: 4 000 $
-- plan de nourriture
-: 2 000 $
-- total
-: 21 000 $
+\begin{table}[h]
+\label{frais-scolaires}
+\caption{Frais scolaires}
+\begin{tabularx}{\linewidth}{p{0.5\linewidth} X}
+\toprule
+Dépense & Prix\\
+\midrule
+Programme & 15 000 \$\\
+Résidence & 4 000 \$\\
+Plan de nourriture & 2 000 \$\\
+\midrule
+Total & 21 000 \$\\
+\bottomrule
+\end{tabularx}
+\end{table}
 
 \centering
 
@@ -105,17 +111,6 @@ Les ingénieurs logiciels se concentrent sur l'application des principes d'ingé
 ## Cours recommandés
 
 1. introduction à l'informatique
-
-<!--
-
-## Exigences générales
-
-1. Diplôme d'études secondaires ou l'équivalent avec un minimum de six cours U ou M de 12e année, incluant tous les cours obligatoires.
-1. Les cours U ou M de 12e année doivent être suivis dans des écoles accréditées par le ministère de l'Éducation de l'Ontario.
-1. Les moyennes d'admission dépendent du nombre de candidatures reçues et du nombre de places disponibles. La fourchette indiquée ci-dessus est basée sur les années précédentes.
-1. Les cours répétés peuvent être pris en considération selon le programme.
-
--->
 
 \centering
 
