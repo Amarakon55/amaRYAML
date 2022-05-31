@@ -67,6 +67,7 @@ Les ingénieurs logiciels se concentrent sur l'application des principes d'ingé
 - Les employeurs recherchent les gens qui ont un bon montant d'expérience.
 - La plupart des gens ont leurs projets logiciels sur un site Web appelé [GitHub](https://github.com/). Cela peut être utilisé pour prouver votre expérience.
 
+```{=latex}
 \begin{table}[h]
 \label{frais-scolaires}
 \caption{Frais scolaires}
@@ -82,6 +83,7 @@ Total & 21 000 \$\\
 \bottomrule
 \end{tabularx}
 \end{table}
+```
 
 \centering
 
