@@ -3,7 +3,5 @@ author: Amar Al-Zubaidi
 date: \today
 colorlinks: true
 link-citations: true
-papersize: letter
-geometry: margin = 1 in
 output: amaryaml::eisvogel
 ---
