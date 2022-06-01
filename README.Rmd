@@ -36,12 +36,12 @@ kable(templates, align = 'cc', col.name = c("[GitHub](inst/examples/github/githu
 ```
 
 ```{r templates}
-one = c("![leaflet [1/2]](inst/examples/leaflet/leaflet-1.png)")
-two = c("![leaflet [2/2]](inst/examples/leaflet/leaflet-2.png)")
+one = c("![Leaflet [1/2]](inst/examples/leaflet/leaflet-1.png)")
+two = c("![Leaflet [2/2]](inst/examples/leaflet/leaflet-2.png)")
 
 templates = data.frame(one, two)
 
-kable(templates, align = 'cc', col.name = c("[leaflet [1/2]](inst/examples/leaflet/leaflet.pdf)", "[leaflet [2/2]](inst/examples/leaflet/leaflet.pdf)"))
+kable(templates, align = 'cc', col.name = c("[Leaflet [1/2]](inst/examples/leaflet/leaflet.pdf)", "[Leaflet [2/2]](inst/examples/leaflet/leaflet.pdf)"))
 ```
 
 ## GitHub
