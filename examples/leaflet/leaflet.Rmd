@@ -16,6 +16,8 @@ classoption: notumble
 output:
   amaryaml::leaflet:
     extra_dependencies: ["tabularx"]
+header-includes: |
+  \newcommand{\defaultalignment}{\RaggedRight}
 ---
 ```{r, setup, include = FALSE}
 knitr::opts_chunk$set(echo = FALSE, cache = TRUE)
@@ -27,7 +29,7 @@ Les ingénieurs logiciels se concentrent sur l'application des principes d'ingé
 
 ![](media/software-engineer.png){width=75%}
 
-\RaggedRight
+\defaultalignment
 
 \newpage
 
@@ -93,7 +95,7 @@ Total & 21 000 \$\\
 
 ![](media/york-university.png){height=12.5%}
 
-\RaggedRight
+\defaultalignment
 
 \newpage
 
@@ -118,7 +120,7 @@ Total & 21 000 \$\\
 
 ![](media/nerd-emoji-fancam-cs.jpg)
 
-\RaggedRight
+\defaultalignment
 
 \newpage
 
@@ -159,4 +161,4 @@ Je suis préparé pour l'avenir.
 
 ![](media/donut-code.png)
 
-\RaggedRight
+\defaultalignment
