@@ -29,9 +29,9 @@ There are currently four templates available in this package:
 |:------------------------------------------:|:---------------------------------------------:|
 | ![GitHub](inst/examples/github/github.png) | ![NorBeam](inst/examples/norbeam/norbeam.png) |
 
-|  [Brochure \[1/2\]](inst/examples/brochure/brochure.pdf)   |  [Brochure \[2/2\]](inst/examples/brochure/brochure.pdf)   |
-|:----------------------------------------------------------:|:----------------------------------------------------------:|
-| ![Brochure \[1/2\]](inst/examples/brochure/brochure-1.png) | ![Brochure \[2/2\]](inst/examples/brochure/brochure-2.png) |
+|  [leaflet \[1/2\]](inst/examples/leaflet/leaflet.pdf)   |  [leaflet \[2/2\]](inst/examples/leaflet/leaflet.pdf)   |
+|:-------------------------------------------------------:|:-------------------------------------------------------:|
+| ![leaflet \[1/2\]](inst/examples/leaflet/leaflet-1.png) | ![leaflet \[2/2\]](inst/examples/leaflet/leaflet-2.png) |
 
 ### GitHub
 

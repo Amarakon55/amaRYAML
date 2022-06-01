@@ -14,7 +14,7 @@ documentclass: leaflet
 papersize: letter
 classoption: notumble
 output:
-  amaryaml::brochure:
+  amaryaml::leaflet:
     extra_dependencies: ["tabularx"]
 ---
 ```{r, setup, include = FALSE}
@@ -127,7 +127,7 @@ Total & 21 000 \$\\
 - Tout comme les langages classiques, il existe de nombreux langages de programmation: plus que 700.
 - Ce n'est pas très difficile à coder, il suffit de le pratiquer souvent.
 - Écrire du code est comme écrire un document ou un livre, c'est juste un langage différent.
-- J'ai utilisé du code pour [faire cette brochure](https://github.com/amarakon/amaryaml/blob/master/inst/examples/brochure/brochure.Rmd).
+- J'ai utilisé du code pour [faire cette leaflet](https://github.com/amarakon/amaryaml/blob/master/inst/examples/leaflet/leaflet.Rmd).
   - Les documents peuvent être écris avec un *langage de balisage* au lieu d'utiliser Microsoft Word ou Google Docs:
     - \LaTeX, Markdown, R Markdown, Quarto, troff
 

@@ -8,5 +8,5 @@ links-as-notes: true
 documentclass: leaflet
 papersize: letter
 classoption: notumble
-output: amaryaml::brochure
+output: amaryaml::leaflet
 ---
