@@ -1,13 +1,13 @@
 \usepackage{enumitem}
 
 \newlist{tabitemize}{itemize}{1}
-\setlist[tabitemize]{label=\textbullet, nosep, leftmargin=*,
+\setlist[tabitemize]{label=\textbullet, noitemsep, leftmargin=*,
                      before={\begin{minipage}[t]{\hsize}},
 		     after ={\end{minipage}}}
 
 \newlist{tabenumerate}{enumerate}{1}
 \setlist[tabenumerate]{label*=\arabic*.,
                        leftmargin=*,
-		       nosep,
+		       noitemsep,
 		       before=\begin{minipage}[t]{\hsize},
 		       after=\end{minipage}}
