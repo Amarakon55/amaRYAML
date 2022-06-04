@@ -1,5 +1,6 @@
 ---
 documentclass: book
+geometry: margin = 1 in
 site: bookdown::bookdown_site
 output: amaryaml::book
 ---
