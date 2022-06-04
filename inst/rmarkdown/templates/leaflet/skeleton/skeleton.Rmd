@@ -1,6 +1,3 @@
 ---
-colorlinks: true
-link-citations: true
-links-as-notes: true
 output: amaryaml::leaflet
 ---

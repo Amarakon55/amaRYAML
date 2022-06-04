@@ -1,7 +1,3 @@
 ---
-author: Amar Al-Zubaidi
-date: \today
-colorlinks: true
-link-citations: true
 output: amaryaml::eisvogel
 ---
