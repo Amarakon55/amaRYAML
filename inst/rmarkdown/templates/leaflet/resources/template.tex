@@ -95,12 +95,7 @@ $if(fontfamily)$
 $else$
 \usepackage{lmodern}
 $endif$
-$if(linestretch)$
 \usepackage{setspace}
-$else$
-\usepackage{setspace}
-\setstretch{1.2}
-$endif$
 \usepackage{iftex}
 \ifPDFTeX
   \usepackage[$if(fontenc)$$fontenc$$else$T1$endif$]{fontenc}
@@ -498,6 +493,8 @@ $if(lot)$
 $endif$
 $if(linestretch)$
 \setstretch{$linestretch$}
+$else$
+\setstretch{1.2}
 $endif$
 $if(has-frontmatter)$
 \mainmatter
