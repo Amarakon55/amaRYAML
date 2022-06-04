@@ -3,7 +3,7 @@ leaflet <- function(..., colorlinks = TRUE, link_citations = TRUE, links_as_note
   leaflet <- pkg_file("includes", "leaflet.tex")
   pandoc_args <- c(pandoc_args, if (colorlinks) rmarkdown::pandoc_variable_arg("colorlinks"),
     if (link_citations) rmarkdown::pandoc_variable_arg("link-citations"),
-    if (link_as_notes) rmarkdown::pandoc_variable_arg("links-as-notes"))
+    if (links_as_notes) rmarkdown::pandoc_variable_arg("links-as-notes"))
   bookdown::pdf_document2(number_sections = number_sections, toc = toc, includes = includes(in_header = leaflet),
     pandoc_args = pandoc_args, ...)
 }
