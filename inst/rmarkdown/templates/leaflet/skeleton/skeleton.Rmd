@@ -1,12 +1,6 @@
 ---
-date: \today
-fontsize: 12pt
-linestretch: 1.2
 colorlinks: true
 link-citations: true
 links-as-notes: true
-documentclass: leaflet
-papersize: letter
-classoption: notumble
 output: amaryaml::leaflet
 ---
