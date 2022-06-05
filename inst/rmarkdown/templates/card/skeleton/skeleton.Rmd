@@ -1,0 +1,42 @@
+---
+documentclass: scrartcl
+classoption: parskip=full
+papersize: letter
+fontfamily: ebgaramond
+colorlinks: true
+links-as-notes: true
+output:
+  amaryaml::card:
+    extra_dependencies: ["graphicx", "fmtcount", "lipsum"]
+header-includes: |
+  \newcommand{\defaultalignment}{\raggedright}
+  \renewcommand{\r}[1]{{\color{red}#1}}
+  \renewcommand{\b}[1]{{\color{green}#1}}
+include-before: |
+  \begin{tikzpicture}[remember picture, overlay]
+      \node[anchor=north west] at (current page text area.north west) {%
+          \pgfornament[width=1.5cm]{63}};
+      \node[anchor=north east] at (current page text area.north east) {%
+          \pgfornament[width=1.5cm, symmetry=v]{63}};
+      \node[anchor=south west] at (current page text area.south west) {%
+          \pgfornament[width=1.5cm,symmetry=h]{63}};
+      \node[anchor=south east] at (current page text area.south east) {%
+          \pgfornament[width=1.5cm,symmetry=c]{63}};
+  \end{tikzpicture}
+---
+
+```{=latex}
+\vfill
+{\Huge \r{C}ard \r{E}xample}\\
+
+\vfill
+\hspace{1cm}\includegraphics[width=6cm]{media/cat.png}
+
+\vfill \b{by} Amar Al-Zubaidi\\
+\b{on} Sunday, June \ordinalnum{19}, 2022
+```
+
+\newpage
+\defaultalignment
+
+\lipsum[1-5]
