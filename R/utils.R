@@ -23,9 +23,3 @@ find_theme <- function(theme, file = "theme.theme") {
 lua_filters <- function(...) {
   c(rbind("--lua-filter", pkg_resource("lua", c(...))))
 }
-
-document2 <- function(..., pandoc_args = NULL, pandoc_vars = NULL,
-                        base_format = bookdown::pdf_document2) {
-  for (i in seq_along(pandoc_vars)){
-    pandoc_args <- c(pandoc_args, rmarkdown::pandoc_variable_arg(names(pandoc_vars)[[i]], pandoc_vars[[i]]))
-  }
