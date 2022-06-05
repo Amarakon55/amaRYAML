@@ -1,18 +1,8 @@
 ---
+author: Amar Al-Zubaidi
 title: Ingénieur logiciel
 subtitle: Mon choix de carrière
-date: \today
-author: Amar Al-Zubaidi
-fontsize: 12pt
-linestretch: 1.2
 lang: fr-CA
-reference-section-title: Bibliographie
-colorlinks: true
-link-citations: true
-links-as-notes: true
-documentclass: leaflet
-papersize: letter
-classoption: notumble
 output:
   amaryaml::leaflet:
     extra_dependencies: ["tabularx"]
