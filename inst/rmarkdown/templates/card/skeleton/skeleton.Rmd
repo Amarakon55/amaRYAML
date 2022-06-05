@@ -1,10 +1,5 @@
 ---
-documentclass: scrartcl
-classoption: parskip=full
-papersize: letter
 fontfamily: ebgaramond
-colorlinks: true
-links-as-notes: true
 output:
   amaryaml::card:
     extra_dependencies: ["graphicx", "fmtcount", "lipsum"]
