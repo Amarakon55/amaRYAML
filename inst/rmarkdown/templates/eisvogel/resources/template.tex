@@ -337,6 +337,10 @@ $endif$
 $if(tables)$
 \usepackage{tabularx,booktabs,xltabular,array}
 \newcolumntype{Y}{>{\RaggedRight\arraybackslash}X}
+\newcolumntype{Z}{>{\RaggedLeft\arraybackslash}X}
+\newcolumntype{A}{>{\raggedright\arraybackslash}X}
+\newcolumntype{B}{>{\raggedleft\arraybackslash}X}
+\newcolumntype{C}{>{\centering\arraybackslash}X}
 $if(multirow)$
 \usepackage{multirow}
 $endif$
