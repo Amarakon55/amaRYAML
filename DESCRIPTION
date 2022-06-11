@@ -7,3 +7,4 @@ License: `use_gpl2_license()`
 Encoding: UTF-8
 Imports: rmarkdown
 Suggests: knitr, pander, DiagrammeR, DiagrammeRsvg, rsvg
+RoxygenNote: 7.1.2

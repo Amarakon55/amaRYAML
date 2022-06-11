@@ -1,3 +1,4 @@
+#' @export
 leaflet <- function(..., colorlinks = TRUE, link_citations = TRUE, links_as_notes = TRUE, number_sections = FALSE,
   toc = FALSE, template = find_template("leaflet"), pandoc_args = NULL) {
   leaflet <- pkg_file("includes", "leaflet.tex")

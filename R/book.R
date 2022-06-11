@@ -1,3 +1,4 @@
+#' @export
 eisvogel <- function(..., link_citations = TRUE, number_sections = TRUE, toc = FALSE,
   toc_depth = 3, template = find_template("eisvogel"), pandoc_args = NULL) {
   tablist <- pkg_file("includes", "tablist.tex")

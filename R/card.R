@@ -1,3 +1,4 @@
+#' @export
 card <- function(..., colorlinks = TRUE, links_as_notes = TRUE, template = find_template("card"),
   pandoc_args = NULL) {
   pandoc_args <- c(pandoc_args, if (colorlinks) rmarkdown::pandoc_variable_arg("colorlinks"),
