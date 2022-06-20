@@ -1,5 +1,5 @@
 #' @export
-eisvogel <- function(..., link_citations = TRUE, number_sections = TRUE, toc = FALSE,
+book <- function(..., link_citations = TRUE, number_sections = TRUE, toc = FALSE,
   toc_depth = 3, template = find_template("eisvogel"), pandoc_args = NULL) {
   tablist <- pkg_file("includes", "tablist.tex")
   pandoc_args <- c(pandoc_args, if (link_citations) rmarkdown::pandoc_variable_arg("link-citations"))
