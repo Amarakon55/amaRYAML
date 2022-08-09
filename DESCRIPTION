@@ -5,5 +5,6 @@ Version: 0.0.1
 Authors@R: person("Amar", "Al-Zubaidi", role = c("aut", "cre"), email = "fraupflaume@gmail.com")
 Encoding: UTF-8
 Imports: rmarkdown
-Suggests: knitr, pander, DiagrammeR, DiagrammeRsvg, rsvg
+Suggests: knitr, pander
 RoxygenNote: 7.1.2
+License: AGPL (>= 3)
